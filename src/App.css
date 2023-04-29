@@ -1,0 +1,53 @@
+@import url("https://fonts.googleapis.com/css2?family=Delicious+Handrawn&family=Lato&family=Montserrat:wght@500&family=NTR&family=Roboto+Mono&display=swap");
+
+/* body,
+html {
+  background-color: white;
+} */
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body,
+html {
+  overflow: hidden;
+  font-family: "NTR", sans-serif;
+}
+
+.webgl {
+  position: absolute;
+  top: 0;
+  left: 0;
+  z-index: 1;
+}
+nav {
+  color: wheat;
+  z-index: 2;
+  position: relative;
+  padding: 4rem 8rem;
+  display: flex;
+  justify-content: space-between;
+}
+nav a {
+  text-decoration: none;
+  color: wheat;
+  font-weight: bold;
+}
+
+nav ul {
+  list-style: none;
+  display: flex;
+  gap: 4rem;
+}
+.title {
+  color: wheat;
+  z-index: 2;
+  position: absolute;
+  font-size: 24px;
+  left: 50%;
+  top: 79%;
+  transform: translate(-50%, -75%);
+}
